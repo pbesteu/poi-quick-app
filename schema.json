@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://pbesteu.github.io/cultural-heritage-quick-app/schema.json",
+    "$id": "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/schema.json",
     "title": "Schema of the config and database file",
     "type": "object",
     "default": {},
@@ -70,7 +70,7 @@
                     "pattern": "^(http|https)://.+$",
                     "default": "",
                     "examples": [
-                        "https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven/data.json"
+                        "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/heritage/data.json"
                     ]
                 },
                 "matomo_base_url": {
@@ -150,7 +150,7 @@
                                     "pattern": "^(http|https)://.+$",
                                     "default": "",
                                     "examples": [
-                                        "https://github.com/pbesteu/poi-quick-app/tree/main/docs/sample/"
+                                        "https://github.com/ow2-quick-app-initiative/poi-quick-app/tree/main/docs/sample/"
                                     ]
                                 },
                                 "text_info": {
@@ -183,7 +183,7 @@
                                     "pattern": "^(http|https)://.+$",
                                     "default": "",
                                     "examples": [
-                                        "https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven/#contributors"
+                                        "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/heritage/#contributors"
                                     ]
                                 },
                                 "issue_url": {
@@ -192,7 +192,7 @@
                                     "pattern": "^(http|https)://.+$",
                                     "default": "",
                                     "examples": [
-                                        "https://github.com/pbesteu/poi-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
+                                        "https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
                                     ]
                                 }                                
                             }
@@ -289,9 +289,9 @@
                                             "type": "string",                     
                                             "pattern": "^(http|https)://.+$",
                                             "examples": [
-                                                "https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven/images/60men.jpg",
-                                                "https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven/images/60men_2.jpg",
-                                                "https://pbesteu.github.io/cultural-heritage-quick-app/be/leuven/images/abraham.jpg"
+                                                "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/heritage/images/60men.jpg",
+                                                "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/heritage/images/60men_2.jpg",
+                                                "https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/heritage/images/abraham.jpg"
                                             ]
                                         }
                                     },
@@ -328,7 +328,7 @@
                                         "items": {
                                             "title": "URL to the external website",
                                             "type": "string",                     
-                                            "pattern": "^(http|https)://.+$",
+                                            "pattern": "^(http|https|tel|mailto):/?/?.+$",
                                             "examples": [
                                                 "https://nl.wikipedia.org/wiki/De_Kotmadam_(Leuven)",
                                                 "https://nl.wikipedia.org/wiki/Paep_Thoon"

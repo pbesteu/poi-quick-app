@@ -6,7 +6,7 @@ The _Heritage in…_ Quick App project provides a methodology and a set of tools
 
 The [Comic Book Route quick app](#Examplesofimplementations) was made with following these methods and code templates in less than one hour.
 
-<img src="https://pbest.eu/comic-book-route-quick-app/bxl/images/screenshots.gif" alt="Screenshots of the Comic Book Route Quick App" title="Brussels Comic Book Route Quick App" height="500">
+<img src="https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/brussels/comics/images/screenshots.gif" alt="Screenshots of the Comic Book Route Quick App" title="Brussels Comic Book Route Quick App" height="500">
 
 Learn more details about the methodology and how to use the templates in the following sections.
 
@@ -75,7 +75,7 @@ This methodology follows the following principles:
 
 This initiative enables individuals to clone an open-source repository with all the instructions, templates, and source code needed to customize and launch their own local heritage project in a few hours. The templates are fully flexible and generic so that you might use them in any scenario, topic, and place.
 
-You can find all the details of the _Heritage in…_ Quick App project in [its GitHub repository](https://github.com/pbesteu/poi-quick-app). It comprises three main parts: the __methodology__, the __database__, and the __app__.  
+You can find all the details of the _Heritage in…_ Quick App project in [its GitHub repository](https://github.com/ow2-quick-app-initiative/poi-quick-app). It comprises three main parts: the __methodology__, the __database__, and the __app__.  
 
 
 ## <a name='Themethodology'></a>The methodology
@@ -90,11 +90,11 @@ The main steps of the process are described below:
 * [Step 4. customize the app](#Step4.customizetheapp), changing colors, icons, and descriptions;
 * [Step 5. run (and publish) the app](#Step5.runandpublishtheapp).
 
-<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-all.jpg" alt="Methodology of Heritage in… Quick App project" width="100%">
+<img src="https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/methodology-all.jpg" alt="Methodology of Heritage in… Quick App project" width="100%">
 
 ### <a name='Step1.cloneandconfiguretheproject'></a>Step 1. clone and configure the project
 
-1. Access the [git repository](https://github.com/pbesteu/poi-quick-app). 
+1. Access the [git repository](https://github.com/ow2-quick-app-initiative/poi-quick-app). 
 2. Fork the project into your projects (`Reuse this template`).
 
 You might access the public database and documentation under the `/docs` directory. There, you will find the template of the database `/docs/sample/data.json`. You can rename the `sample` directory following your rules.
@@ -103,7 +103,7 @@ The application code (a quick app) is under the `/quick-app` directory.
 
 See the complete structure of the project in the following picture.
 
-<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-repo.jpg" alt="File structure of the repository" height="500">
+<img src="https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/methodology-repo.jpg" alt="File structure of the repository" height="500">
 
 
 ### <a name='Step2.populatethedatabase'></a>Step 2. populate the database
@@ -138,7 +138,7 @@ Please, use the identifier of the point of interest you are referring to (see at
 
 The database is in the JSON file named `data.json` (`/sample/data.json`). Initially, you have an empty file you can use to quick start the project.
 
-Please be sure that this document has the correct format (syntax and content). You can test it locally using any JSON schema validation tool against the JSON schema you can find in the repository ([schema.json](https://pbesteu.github.io/poi-quick-app/sample/schema.json)). 
+Please be sure that this document has the correct format (syntax and content). You can test it locally using any JSON schema validation tool against the JSON schema you can find in the repository ([schema.json](https://ow2-quick-app-initiative.github.io/poi-quick-app/schema.json)). 
 
 This JSON document contains two main parts, represented by the main keys of the root object:
 
@@ -156,7 +156,7 @@ Example of a project named `fr/paris` for the City of Paris:
         "app_title": "Paris Street Heritage",
         "version": 12,
         "updated": "2022-10-26",
-        "source_url": "https://pbesteu.github.io/poi-quick-app/fr/paris/data.json",
+        "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/fr/paris/data.json",
         "matomo_base_url": "https://example.org/my-matomo-instance?id=1",                
         "marketplace_url": "https://appgallery.huawei.com/app/FinalURL"
     },
@@ -224,12 +224,12 @@ The content language tags are objects with the following structure:
                     "brand": "#B11623",             // Main color of the theme
                     "complementary": "#FAFAFA"      // Secondary color of the theme
                 },
-                "repository_url": "https://github.com/pbesteu/poi-quick-app/",
+                "repository_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/",
                 "text_info": "This project was created by...",
                 "text_acknowledge": "We would like to thanks...",
                 "text_feedback": "Please let us know if you want to contribute...",
-                "feedback_url": "https://pbesteu.github.io/poi-quick-app/fr/paris/#contributors",
-                "issue_url": "https://github.com/pbesteu/poi-quick-app/issues/new?labels=fr/paris"
+                "feedback_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/fr/paris/#contributors",
+                "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new?labels=fr/paris"
             },
             "pois": [
                 {
@@ -239,8 +239,8 @@ The content language tags are objects with the following structure:
                     "type": "tower",
                     "name": "Eiffel Tower",
                     "images": [
-                        "https://pbesteu.github.io/poi-quick-app/fr/paris/images/eiffeltower_1.jpg",
-                        "https://pbesteu.github.io/poi-quick-app/fr/paris/images/eiffeltower_2.jpg"
+                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/fr/paris/images/eiffeltower_1.jpg",
+                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/fr/paris/images/eiffeltower_2.jpg"
                     ],
                     "description": "The Tour Eiffel (French) is a iron lattice tower, named after the engineer Gustave Eiffel, whose company designed and built the tower",
                     "more": "Locally nicknamed La dame de fer (French for Iron Lady), it was constructed from 1887 to 1889 as the centerpiece of the 1889 World's Fair and was initially criticized by some of France's leading artists and intellectuals for its design, but it has become a global cultural icon of France and one of the most recognizable structures in the world",
@@ -294,13 +294,13 @@ The PoIs are the main items of the database, described in the `poi` attribute as
 
 #### <a name='RealexampleusingOpenDataandLinkedData'></a>Real example using Open Data and Linked Data
 
-The [Brussels Comic Book Route Quick App](https://github.com/pbesteu/comic-book-route-quick-app) was made through this methodology and templates. The database is based on a dataset by the [BXL Open Data](https://opendata.brussels.be/page/home/) initiative.
+The [Brussels Comic Book Route Quick App](https://github.com/ow2-quick-app-initiative/poi-quick-app-implementations/tree/main/quick-app/be/brussels/comics) was made through this methodology and templates. The database is based on a dataset by the [BXL Open Data](https://opendata.brussels.be/page/home/) initiative.
 
 The data, almost perfect and distributed in Comma Separated Value (CSV) format, was curated using [OpenRefine](https://openrefine.org/). Subsequently, the database was enriched with external sources like [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) through __linked data__.  
 
 This is just an example, but it shows how powerful and productive these tools may be for simple projects.  
 
-Read the illustrative [step-by-step guide on how the Brussels Comic Book Route project was created](https://pbest.eu/comic-book-route-quick-app/step_by_step_development_guide.pdf).
+Read the illustrative [step-by-step guide on how the Brussels Comic Book Route project was created](https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/brussels/comics/step_by_step_development_guide.pdf).
 
 ### <a name='Step3.publishthedatabase'></a>Step 3. publish the database
 
@@ -331,7 +331,7 @@ The open source project includes the CI actions. Once you have access to these C
 4. You can verify that the CI Action works properly (`Project's Actions`) and re-run the jobs with failure (after that, they must be in green)
 5. In project's `Settings` > `Pages` you can see the public URL of your site with the template of the documentation. 
 
-<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-ci.jpg" alt="Summary of the workflow of the CI actions" width="70%">
+<img src="https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/methodology-ci.jpg" alt="Summary of the workflow of the CI actions" width="70%">
 
 #### <a name='Howtoconfigureandhandlepublicupdateproposals'></a>How to configure and handle public update proposals 
 
@@ -339,7 +339,7 @@ User's feedback is handled through GitHub issues guaranteeing transparent commun
 
 The title of the issues should contain the same name or identifier of the point of interest to avoid misunderstandings.   
 
-You also can create an issue template to have a homogeneous format (see [.github/ISSUE_TEMPLATE/update_request.md](../.github/ISSUE_TEMPLATE/update_request.md)) and use it for new issues. 
+You also can create an issue template to have a homogeneous format (see [.github/ISSUE_TEMPLATE/update_request.md](https://github.com/ow2-quick-app-initiative/poi-quick-app/tree/main/.github/ISSUE_TEMPLATE/update_request.md)) and use it for new issues. 
 
 In the [app configuration](#app-configuration), we configure the template URL for the issues for the project. If you want to handle issues by language, you can specify different tags or templates according to your needs. 
 
@@ -348,7 +348,7 @@ For instance:
 ```js
 {
     //...
-    "issue_url": "https://github.com/pbesteu/poi-quick-app/issues/new?labels=uk/london&template=update_request.md&title=Update+request+of+"
+    "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new?labels=uk/london&template=update_request.md&title=Update+request+of+"
     //...
 }
 ```
@@ -402,7 +402,7 @@ Overwrite the first version of the database generated in [step 2](#Step2.populat
 
 This database file will be used in case the app is offline.
 
-<img src="https://pbest.eu/poi-quick-app/sample/images/methodology-app-maintenance.jpg" alt="How the app works in summary" width="70%">
+<img src="https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/methodology-app-maintenance.jpg" alt="How the app works in summary" width="70%">
 
 #### <a name='Localizetheuserinterface'></a>Localize the user interface
 
@@ -459,17 +459,17 @@ Alternatively, you can try the database generated on the Web. We have developed 
 In reality, [heritagein.info](http://heritagein.info) is a __meta app__ that enables us to generate unlimited _heritage in..._ apps just passing a parameter with the URL to your `data.json`. 
 
 For instance, we can visualize the places in the database generated for the Brussels Comic Book Route ( 
-`https://pbesteu.github.io/comic-book-route-quick-app/bxl/data.json`), including the URL in the query string as follows.
+`https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/brussels/comics/data.json`), including the URL in the query string as follows.
 
 ```
-https://heritagein.info/_/?url=https://pbesteu.github.io/comic-book-route-quick-app/bxl/data.json
+https://heritagein.info/_/?url=https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/brussels/comics/data.json
 ``` 
 
 Just change the `url`parameter to test your outcomes. Visit the home page and find some existing implementations that follow this methodology. 
 
 ##### How to generate a new PWA?
 
-We maintain a public [configuration file](https://github.com/pbesteu/poi-quick-app/blob/main/docs/implementations.json), which the application uses to generate the concrete instances for each configuration file. Each instance listed in this document is a Progressive Web Application. The system generates dedicated [manifest.json](https://developer.mozilla.org/en-US/docs/Web/Manifest) for each of them. 
+We maintain a public [configuration file](https://github.com/ow2-quick-app-initiative/poi-quick-app/blob/main/docs/implementations.json), which the application uses to generate the concrete instances for each configuration file. Each instance listed in this document is a Progressive Web Application. The system generates dedicated [manifest.json](https://developer.mozilla.org/en-US/docs/Web/Manifest) for each of them. 
 
 This implementations.json document includes a `towns` array with objects that will identify every implementation. For instance:
   
@@ -492,27 +492,27 @@ The heritagein.info app implements [language negotiation](https://www.w3.org/Int
 
 #### <a name='Examplesofimplementations'></a>Examples of implementations
 
-* [Leuven Cultural Heritage](https://pbest.eu/cultural-heritage-quick-app/). Historical places and monuments in Leuven 🇧🇪. [See result](https://heritagein.info/leuven/).
-* [Oeratoom](https://pbest.eu/oeratoom-leuven-quick-app/). Big Bang Theory artwork in Leuven (🇧🇪). [See result](https://heritagein.info/oeratoom/).
-* [Comic Book Route](https://pbest.eu/comic-book-route-quick-app/). Wall paintings in Brussels (🇧🇪). [See result](https://heritagein.info/comics/).
-* [Middelheim Museum](https://pbest.eu/cultural-heritage-quick-app/be/antwerpen/middelheimmuseum/data.json). Open-air musseum in Antwerpen (🇩🇪). [See result](https://heritagein.info/middelheim/).
-* [Eckernförde Heritage](https://pbest.eu/cultural-heritage-quick-app/de/eckernforde/). Historical buildings in Eckernförde 🇩🇪. [See result](https://heritagein.info/eckernforde/).
+* [Leuven Cultural Heritage](https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/heritage/). Historical places and monuments in Leuven 🇧🇪. [See result](https://heritagein.info/leuven/).
+* [Oeratoom](https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/leuven/oeratoom/). Big Bang Theory artwork in Leuven (🇧🇪). [See result](https://heritagein.info/oeratoom/).
+* [Comic Book Route](https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/brussels/comics//). Wall paintings in Brussels (🇧🇪). [See result](https://heritagein.info/comics/).
+* [Middelheim Museum](https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/be/antwerpen/middelheimmuseum/data.json). Open-air musseum in Antwerpen (🇩🇪). [See result](https://heritagein.info/middelheim/).
+* [Eckernförde Heritage](https://ow2-quick-app-initiative.github.io/poi-quick-app-implementations/de/eckernforde/). Historical buildings in Eckernförde 🇩🇪. [See result](https://heritagein.info/eckernforde/).
 
-Share yours! We are collecting all [the existing implementations in machine-readable format](https://github.com/pbesteu/poi-quick-app/blob/main/docs/implementations.json). This will help the tools to produce new Web applications based on your database. 
+Share yours! We are collecting all [the existing implementations in machine-readable format](https://github.com/ow2-quick-app-initiative/poi-quick-app/blob/main/docs/implementations.json). This will help the tools to produce new Web applications based on your database. 
 
-Just update the file or [send us the information](https://github.com/pbesteu/poi-quick-app/issues/new) about what you have done.
+Just update the file or [send us the information](https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new) about what you have done.
 
 ## <a name='License'></a>License
 
-This project's documentation, content, and data folders are licensed under a [CC-BY license](./LICENSE).
+This project's documentation, content, and data folders are licensed under a [CC-BY license](https://github.com/ow2-quick-app-initiative/poi-quick-app/blob/main/LICENSE).
 
-All other code in this repository is licensed under the [MIT license](./LICENSE-CODE).
+All other code in this repository is licensed under the [MIT license](https://github.com/ow2-quick-app-initiative/poi-quick-app/blob/main/LICENSE-CODE).
 
 ## <a name='Privacy'></a>Privacy
 
 These apps are based on open data and automatic processing of the data. The community's content is enriched and curated, so it's available to anyone who wants to get involved. Local experts are welcome to refine the definitions, names, and pictures and add new points of interest to the app.
 
-The app doesn't collect any personal data. The quick app may perform a call to a [Matomo instance](https://en.wikipedia.org/wiki/Matomo_(software)) to measure its performance, but no personal data is shared. You can just [check the code](https://github.com/pbesteu/poi-quick-app/blob/0e30a81f203796156ecb29b30437fb18f9f83309/quick-app/src/app.ux#L222) that generates a random identifier.  
+The app doesn't collect any personal data. The quick app may perform a call to a [Matomo instance](https://en.wikipedia.org/wiki/Matomo_(software)) to measure its performance, but no personal data is shared. You can just [check the code](https://github.com/ow2-quick-app-initiative/poi-quick-app/blob/0e30a81f203796156ecb29b30437fb18f9f83309/quick-app/src/app.ux#L222) that generates a random identifier.  
 
 ## <a name='Getinvolved'></a>Get involved
 
@@ -528,9 +528,9 @@ This project aims to be as much collaborative as possible, so we will be pleased
 
 If you are familiar with Github, just fork the repository and push your contributions. 
 
-The code of the quick app is in the [`/quick-app`](https://github.com/pbesteu/poi-quick-app/tree/main/quick-app) folder of the repository. The web application is in the [heritage-quick-app-web repository](https://github.com/pbesteu/heritage-quick-app-web).
+The code of the quick app is in the [`/quick-app`](https://github.com/ow2-quick-app-initiative/poi-quick-app/tree/main/quick-app) folder of the repository. The web application is in the [poi-quick-app-web repository](https://github.com/ow2-quick-app-initiative/poi-quick-app-web/).
 
-If you don´t know how to start, please login to Github and [raise an issue with your intentions and suggestions](https://github.com/pbesteu/poi-quick-app/issues/new).
+If you don´t know how to start, please login to Github and [raise an issue with your intentions and suggestions](https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new).
 
 Thank you!
 
